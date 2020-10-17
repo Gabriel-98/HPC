@@ -1,0 +1,55 @@
+
+***** SOLUCIONES CON OpenMP *****
+[*] Resultado (binario=bin/binOpenMP, version=staticRow, N=100, hilos=1, rep=1)
+real: 0.004s	user: 0.001s	sys: 0.004s	mem: 14068 KB
+
+[*] Resultado (binario=bin/binOpenMP, version=staticRow, N=100, hilos=2, rep=1)
+real: 0.003s	user: 0.001s	sys: 0.004s	mem: 13788 KB
+
+[*] Resultado (binario=bin/binOpenMP, version=staticRow, N=100, hilos=4, rep=1)
+real: 0.003s	user: 0.006s	sys: 0.000s	mem: 12300 KB
+
+[*] Resultado (binario=bin/binOpenMP, version=staticRow, N=500, hilos=1, rep=1)
+real: 0.257s	user: 0.257s	sys: 0.000s	mem: 27344 KB
+
+[*] Resultado (binario=bin/binOpenMP, version=staticRow, N=500, hilos=2, rep=1)
+real: 0.133s	user: 0.255s	sys: 0.004s	mem: 27128 KB
+
+[*] Resultado (binario=bin/binOpenMP, version=staticRow, N=500, hilos=4, rep=1)
+real: 0.075s	user: 0.271s	sys: 0.008s	mem: 26724 KB
+
+[*] Resultado (binario=bin/binOpenMP, version=staticRow, N=1000, hilos=1, rep=1)
+real: 2.007s	user: 2.007s	sys: 0.000s	mem: 40872 KB
+
+[*] Resultado (binario=bin/binOpenMP, version=staticRow, N=1000, hilos=2, rep=1)
+real: 1.020s	user: 2.021s	sys: 0.000s	mem: 41348 KB
+
+[*] Resultado (binario=bin/binOpenMP, version=staticRow, N=1000, hilos=4, rep=1)
+real: 0.558s	user: 2.173s	sys: 0.000s	mem: 41440 KB
+
+
+***** SOLUCIONES CON OpenMP *****
+[*] Resultado (binario=bin/binOpenMP, show=0, version=staticBox, N=2000, hilos=4, tamañoBloque=1, rep=1)
+real: 4.487s	user: 17.731s	sys: 0.004s	mem: 65992 KB
+
+[*] Resultado (binario=bin/binOpenMP, show=0, version=staticBox, N=2000, hilos=4, tamañoBloque=10, rep=1)
+real: 4.462s	user: 17.639s	sys: 0.004s	mem: 65992 KB
+
+[*] Resultado (binario=bin/binOpenMP, show=0, version=staticBox, N=2000, hilos=4, tamañoBloque=100, rep=1)
+real: 4.456s	user: 17.617s	sys: 0.000s	mem: 66060 KB
+
+[*] Resultado (binario=bin/binOpenMP, show=0, version=staticBox, N=2000, hilos=4, tamañoBloque=1000, rep=1)
+real: 4.463s	user: 17.642s	sys: 0.004s	mem: 66064 KB
+
+[*] Resultado (binario=bin/binOpenMP, show=0, version=dynamicBox, N=2000, hilos=4, tamañoBloque=1, rep=1)
+real: 4.529s	user: 17.876s	sys: 0.036s	mem: 66108 KB
+
+[*] Resultado (binario=bin/binOpenMP, show=0, version=dynamicBox, N=2000, hilos=4, tamañoBloque=10, rep=1)
+real: 4.491s	user: 17.754s	sys: 0.004s	mem: 66108 KB
+
+[*] Resultado (binario=bin/binOpenMP, show=0, version=dynamicBox, N=2000, hilos=4, tamañoBloque=100, rep=1)
+real: 4.491s	user: 17.760s	sys: 0.000s	mem: 65996 KB
+
+[*] Resultado (binario=bin/binOpenMP, show=0, version=dynamicBox, N=2000, hilos=4, tamañoBloque=1000, rep=1)
+real: 4.492s	user: 17.759s	sys: 0.004s	mem: 65944 KB
+
