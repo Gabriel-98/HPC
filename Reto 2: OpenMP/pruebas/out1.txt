@@ -1,0 +1,56 @@
+
+***** SOLUCIONES CON OpenMP *****
+[*] Resultado (binario=bin/binOpenMPNeedles, version=critical, N=10000000, hilos=1)
+real: 4.097s	user: 4.097s	sys: 0.000s	mem: 3584 KB
+
+[*] Resultado (binario=bin/binOpenMPNeedles, version=critical, N=10000000, hilos=2)
+real: 4.188s	user: 7.221s	sys: 0.000s	mem: 3500 KB
+
+[*] Resultado (binario=bin/binOpenMPNeedles, version=critical, N=10000000, hilos=4)
+real: 4.281s	user: 14.704s	sys: 0.000s	mem: 3564 KB
+
+[*] Resultado (binario=bin/binOpenMPNeedles, version=atomic, N=10000000, hilos=1)
+real: 4.051s	user: 4.046s	sys: 0.004s	mem: 3524 KB
+
+[*] Resultado (binario=bin/binOpenMPNeedles, version=atomic, N=10000000, hilos=2)
+real: 2.052s	user: 4.098s	sys: 0.004s	mem: 3460 KB
+
+[*] Resultado (binario=bin/binOpenMPNeedles, version=atomic, N=10000000, hilos=4)
+real: 1.049s	user: 4.193s	sys: 0.000s	mem: 3612 KB
+
+[*] Resultado (binario=bin/binOpenMPNeedles, version=reduction, N=10000000, hilos=1)
+real: 4.031s	user: 4.031s	sys: 0.000s	mem: 3540 KB
+
+[*] Resultado (binario=bin/binOpenMPNeedles, version=reduction, N=10000000, hilos=2)
+real: 2.019s	user: 4.037s	sys: 0.000s	mem: 3524 KB
+
+[*] Resultado (binario=bin/binOpenMPNeedles, version=reduction, N=10000000, hilos=4)
+real: 1.034s	user: 4.131s	sys: 0.000s	mem: 3444 KB
+
+[*] Resultado (binario=bin/binOpenMPDartboard, version=critical, N=10000000, hilos=1)
+real: 0.363s	user: 0.362s	sys: 0.000s	mem: 3492 KB
+
+[*] Resultado (binario=bin/binOpenMPDartboard, version=critical, N=10000000, hilos=2)
+real: 0.541s	user: 0.969s	sys: 0.000s	mem: 3544 KB
+
+[*] Resultado (binario=bin/binOpenMPDartboard, version=critical, N=10000000, hilos=4)
+real: 0.856s	user: 3.052s	sys: 0.000s	mem: 3476 KB
+
+[*] Resultado (binario=bin/binOpenMPDartboard, version=atomic, N=10000000, hilos=1)
+real: 0.325s	user: 0.325s	sys: 0.000s	mem: 3500 KB
+
+[*] Resultado (binario=bin/binOpenMPDartboard, version=atomic, N=10000000, hilos=2)
+real: 0.243s	user: 0.485s	sys: 0.000s	mem: 3428 KB
+
+[*] Resultado (binario=bin/binOpenMPDartboard, version=atomic, N=10000000, hilos=4)
+real: 0.238s	user: 0.914s	sys: 0.000s	mem: 3516 KB
+
+[*] Resultado (binario=bin/binOpenMPDartboard, version=reduction, N=10000000, hilos=1)
+real: 0.313s	user: 0.313s	sys: 0.000s	mem: 3648 KB
+
+[*] Resultado (binario=bin/binOpenMPDartboard, version=reduction, N=10000000, hilos=2)
+real: 0.158s	user: 0.311s	sys: 0.004s	mem: 3596 KB
+
+[*] Resultado (binario=bin/binOpenMPDartboard, version=reduction, N=10000000, hilos=4)
+real: 0.081s	user: 0.320s	sys: 0.000s	mem: 3492 KB
+
