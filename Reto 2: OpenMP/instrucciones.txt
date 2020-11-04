@@ -1,0 +1,5 @@
+Instrucciones:
+	crear la carpeta bin
+	g++ stats.cpp -o stats
+	g++ test.cpp -o m
+	./m > outX.txt
