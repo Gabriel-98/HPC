@@ -1,0 +1,46 @@
+
+***** SOLUCION SECUENCIAL *****
+[*] Resultado (binario=bin/binSequential, N=1000)
+real: 3.434s	user: 3.426s	sys: 0.008s	mem: 34584 KB
+
+[*] Resultado (binario=bin/binSequential, N=2000)
+real: 26.958s	user: 26.897s	sys: 0.056s	mem: 65840 KB
+
+
+***** SOLUCION CON MPI *****
+[*] Resultado (binario=bin/binMPI, N=1000, procesos=2)
+real: 3.626s	user: 3.356s	sys: 0.178s	mem: 42476 KB
+
+[*] Resultado (binario=bin/binMPI, N=1000, procesos=3)
+real: 1.914s	user: 1.703s	sys: 0.121s	mem: 42592 KB
+
+[*] Resultado (binario=bin/binMPI, N=1000, procesos=4)
+real: 1.354s	user: 1.172s	sys: 0.104s	mem: 42304 KB
+
+[*] Resultado (binario=bin/binMPI, N=1000, procesos=5)
+real: 1.083s	user: 0.900s	sys: 0.103s	mem: 42404 KB
+
+[*] Resultado (binario=bin/binMPI, N=1000, procesos=6)
+real: 0.924s	user: 0.757s	sys: 0.090s	mem: 42604 KB
+
+[*] Resultado (binario=bin/binMPI, N=1000, procesos=7)
+real: 0.831s	user: 0.623s	sys: 0.129s	mem: 42580 KB
+
+[*] Resultado (binario=bin/binMPI, N=2000, procesos=2)
+real: 27.645s	user: 26.443s	sys: 1.115s	mem: 74652 KB
+
+[*] Resultado (binario=bin/binMPI, N=2000, procesos=3)
+real: 13.943s	user: 13.122s	sys: 0.734s	mem: 74656 KB
+
+[*] Resultado (binario=bin/binMPI, N=2000, procesos=4)
+real: 9.420s	user: 8.798s	sys: 0.546s	mem: 74556 KB
+
+[*] Resultado (binario=bin/binMPI, N=2000, procesos=5)
+real: 7.205s	user: 6.598s	sys: 0.520s	mem: 74732 KB
+
+[*] Resultado (binario=bin/binMPI, N=2000, procesos=6)
+real: 5.875s	user: 5.426s	sys: 0.368s	mem: 74744 KB
+
+[*] Resultado (binario=bin/binMPI, N=2000, procesos=7)
+real: 4.969s	user: 4.464s	sys: 0.429s	mem: 74560 KB
+
