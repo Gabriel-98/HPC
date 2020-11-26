@@ -1,0 +1,153 @@
+***** SOLUCIONES SECUENCIALES *****
+[*] Resultado (binario=bin/sequential, N=10, iteraciones=1000)
+real: 0.010s	user: 0.002s	sys: 0.000s	mem: 3532 KB
+
+[*] Resultado (binario=bin/sequential, N=10, iteraciones=10000)
+real: 0.010s	user: 0.002s	sys: 0.000s	mem: 3500 KB
+
+[*] Resultado (binario=bin/sequential, N=100, iteraciones=1000)
+real: 0.010s	user: 0.002s	sys: 0.000s	mem: 3364 KB
+
+[*] Resultado (binario=bin/sequential, N=100, iteraciones=10000)
+real: 0.012s	user: 0.004s	sys: 0.000s	mem: 3548 KB
+
+[*] Resultado (binario=bin/sequential, N=1000, iteraciones=1000)
+real: 0.012s	user: 0.004s	sys: 0.000s	mem: 3456 KB
+
+[*] Resultado (binario=bin/sequential, N=1000, iteraciones=10000)
+real: 0.069s	user: 0.019s	sys: 0.004s	mem: 3528 KB
+
+[*] Resultado (binario=bin/sequential, N=10000, iteraciones=1000)
+real: 0.072s	user: 0.024s	sys: 0.000s	mem: 3556 KB
+
+[*] Resultado (binario=bin/sequential, N=10000, iteraciones=10000)
+real: 0.571s	user: 0.191s	sys: 0.000s	mem: 3640 KB
+
+[*] Resultado (binario=bin/sequential, N=100000, iteraciones=1000)
+real: 0.698s	user: 0.232s	sys: 0.000s	mem: 4080 KB
+
+[*] Resultado (binario=bin/sequential, N=100000, iteraciones=10000)
+real: 5.978s	user: 1.990s	sys: 0.000s	mem: 4312 KB
+
+
+***** SOLUCIONES CON MPI *****
+[*] Resultado (binario=bin/mpiNonBlocking, N=10, iteraciones=1000, procesos=2)
+real: 1.645s	user: 0.465s	sys: 0.070s	mem: 10276 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=10, iteraciones=1000, procesos=4)
+real: 8.236s	user: 3.634s	sys: 0.456s	mem: 10740 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=10, iteraciones=10000, procesos=2)
+real: 14.846s	user: 4.243s	sys: 0.687s	mem: 10296 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=10, iteraciones=10000, procesos=4)
+real: 80.710s	user: 36.373s	sys: 3.948s	mem: 10568 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=100, iteraciones=1000, procesos=2)
+real: 1.780s	user: 0.495s	sys: 0.081s	mem: 10188 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=100, iteraciones=1000, procesos=4)
+real: 8.271s	user: 3.677s	sys: 0.430s	mem: 10664 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=100, iteraciones=10000, procesos=2)
+real: 15.657s	user: 4.567s	sys: 0.634s	mem: 10244 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=100, iteraciones=10000, procesos=4)
+real: 80.603s	user: 36.045s	sys: 4.218s	mem: 10708 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=1000, iteraciones=1000, procesos=2)
+real: 1.754s	user: 0.505s	sys: 0.066s	mem: 10260 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=1000, iteraciones=1000, procesos=4)
+real: 8.294s	user: 3.775s	sys: 0.336s	mem: 10748 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=1000, iteraciones=10000, procesos=2)
+real: 15.504s	user: 4.409s	sys: 0.745s	mem: 10384 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=1000, iteraciones=10000, procesos=4)
+real: 80.522s	user: 36.280s	sys: 3.936s	mem: 10896 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=10000, iteraciones=1000, procesos=2)
+real: 1.749s	user: 0.449s	sys: 0.118s	mem: 10196 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=10000, iteraciones=1000, procesos=4)
+real: 8.228s	user: 3.702s	sys: 0.383s	mem: 10708 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=10000, iteraciones=10000, procesos=2)
+real: 16.853s	user: 4.904s	sys: 0.702s	mem: 10352 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=10000, iteraciones=10000, procesos=4)
+real: 80.392s	user: 36.171s	sys: 3.994s	mem: 10808 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=100000, iteraciones=1000, procesos=2)
+real: 2.127s	user: 0.615s	sys: 0.078s	mem: 11056 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=100000, iteraciones=1000, procesos=4)
+real: 8.259s	user: 3.683s	sys: 0.418s	mem: 11628 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=100000, iteraciones=10000, procesos=2)
+real: 19.689s	user: 5.610s	sys: 0.937s	mem: 11076 KB
+
+[*] Resultado (binario=bin/mpiNonBlocking, N=100000, iteraciones=10000, procesos=4)
+real: 80.582s	user: 36.099s	sys: 4.158s	mem: 11932 KB
+
+[*] Resultado (binario=bin/mpiSync, N=10, iteraciones=1000, procesos=2)
+real: 7.474s	user: 2.153s	sys: 0.323s	mem: 10176 KB
+
+[*] Resultado (binario=bin/mpiSync, N=10, iteraciones=1000, procesos=4)
+real: 28.870s	user: 12.776s	sys: 1.625s	mem: 10680 KB
+
+[*] Resultado (binario=bin/mpiSync, N=10, iteraciones=10000, procesos=2)
+real: 50.347s	user: 19.434s	sys: 2.928s	mem: 10344 KB
+
+[*] Resultado (binario=bin/mpiSync, N=10, iteraciones=10000, procesos=4)
+real: 82.114s	user: 72.856s	sys: 9.162s	mem: 10808 KB
+
+[*] Resultado (binario=bin/mpiSync, N=100, iteraciones=1000, procesos=2)
+real: 1.760s	user: 1.437s	sys: 0.236s	mem: 10208 KB
+
+[*] Resultado (binario=bin/mpiSync, N=100, iteraciones=1000, procesos=4)
+real: 8.491s	user: 7.490s	sys: 0.923s	mem: 10620 KB
+
+[*] Resultado (binario=bin/mpiSync, N=100, iteraciones=10000, procesos=2)
+real: 15.459s	user: 13.193s	sys: 2.181s	mem: 10308 KB
+
+[*] Resultado (binario=bin/mpiSync, N=100, iteraciones=10000, procesos=4)
+real: 82.877s	user: 73.403s	sys: 9.361s	mem: 10636 KB
+
+[*] Resultado (binario=bin/mpiSync, N=1000, iteraciones=1000, procesos=2)
+real: 1.764s	user: 1.435s	sys: 0.246s	mem: 10332 KB
+
+[*] Resultado (binario=bin/mpiSync, N=1000, iteraciones=1000, procesos=4)
+real: 8.263s	user: 7.129s	sys: 1.054s	mem: 10684 KB
+
+[*] Resultado (binario=bin/mpiSync, N=1000, iteraciones=10000, procesos=2)
+real: 15.873s	user: 13.671s	sys: 2.120s	mem: 10328 KB
+
+[*] Resultado (binario=bin/mpiSync, N=1000, iteraciones=10000, procesos=4)
+real: 82.109s	user: 72.853s	sys: 9.159s	mem: 10988 KB
+
+[*] Resultado (binario=bin/mpiSync, N=10000, iteraciones=1000, procesos=2)
+real: 1.710s	user: 1.391s	sys: 0.237s	mem: 10240 KB
+
+[*] Resultado (binario=bin/mpiSync, N=10000, iteraciones=1000, procesos=4)
+real: 8.842s	user: 7.636s	sys: 1.054s	mem: 10716 KB
+
+[*] Resultado (binario=bin/mpiSync, N=10000, iteraciones=10000, procesos=2)
+real: 16.734s	user: 14.483s	sys: 2.173s	mem: 10364 KB
+
+[*] Resultado (binario=bin/mpiSync, N=10000, iteraciones=10000, procesos=4)
+real: 81.959s	user: 72.621s	sys: 9.244s	mem: 10876 KB
+
+[*] Resultado (binario=bin/mpiSync, N=100000, iteraciones=1000, procesos=2)
+real: 1.595s	user: 1.341s	sys: 0.173s	mem: 10988 KB
+
+[*] Resultado (binario=bin/mpiSync, N=100000, iteraciones=1000, procesos=4)
+real: 8.457s	user: 7.504s	sys: 0.877s	mem: 11568 KB
+
+[*] Resultado (binario=bin/mpiSync, N=100000, iteraciones=10000, procesos=2)
+real: 16.410s	user: 14.071s	sys: 2.246s	mem: 11012 KB
+
+[*] Resultado (binario=bin/mpiSync, N=100000, iteraciones=10000, procesos=4)
+real: 86.618s	user: 76.947s	sys: 9.570s	mem: 11804 KB
+

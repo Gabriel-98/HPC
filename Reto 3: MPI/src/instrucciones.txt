@@ -1,0 +1,27 @@
+Crear carpeta bin
+Generar casos:
+	Crear carpeta testIn
+	g++ generator/randomGenerator.cpp -o bin/randomGenerator
+	bin/randomGenerator N > testIn/roadN
+Compilar soluciones:
+	g++ sequential/sequential.cpp -o bin/sequential
+	mpicxx mpi/mpiNonBlocking.cpp -o bin/mpiNonBlocking
+	mpicxx mpi/mpiSync.cpp -o bin/mpiSync
+Ejecutar soluciones:
+	./bin/sequential [readOfFile] [N / File] [iteraciones] [show]
+	mpirun -n [procesos] -hosts [hosts] ./bin/mpiNonBlocking [readOfFile] [N / File] [iteraciones] [show]
+	mpirun -n [procesos] -hosts [hosts] ./bin/mpiSync [readOfFile] [N / File] [iteraciones] [show]
+Comparar las salidas:
+	Crear carpeta testOut
+	./bin/sequential 1 testIn/roadN [iteraciones] 1 > test/outX
+	mpirun -n [numeroProcesos] -hosts [hosts] ./bin/mpiNonBlocking 1 testIn/roadN [iteraciones] 1 > test/outY
+	mpirun -n [numeroProcesos] -hosts [hosts] ./bin/mpiSync 1 testIn/roadN [iteraciones] 1 > testOut/outZ
+	diff testOut/outX testOut/outY
+Realizar las pruebas
+	Crear carpeta pruebas
+	g++ stats.cpp -o stats
+	g++ test.cpp -o m
+	./m > pruebas/outX.txt
+		(hay un problema al hacer el llamado system en test.cpp,
+		posiblemente con un buffer, entonces despues de varios llamados a system puede que envie show=1)
+
