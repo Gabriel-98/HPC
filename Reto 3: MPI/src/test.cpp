@@ -33,7 +33,7 @@ void runSequentialSolutions(){
 		"1000",
 		"10000",
 		"100000"};
-	vector<string> iterations = {"1000", "100000"};
+	vector<string> iterations = {"1000", "10000"};
 	string readOfFile = "0";
 	string show = "0";
 
@@ -67,7 +67,7 @@ void runMPISolutions(){
 		"1000",
 		"10000",
 		"100000"};
-	vector<string> iterations = {"1000", "100000"};
+	vector<string> iterations = {"1000", "10000"};
 	vector<string> numberOfProcess = {"2", "4"};
 	vector<string> host = {
 		"head,wn1",
