@@ -1,0 +1,78 @@
+***** SOLUCION SECUENCIAL *****
+[*] Resultado (binario=bin/sequential, N=5000)
+real: 415.973s	user: 415.613s	sys: 0.344s	mem: 394040 KB
+
+
+***** SOLUCION CON OpenMP + MPI *****
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=2, hilos_por_worker=1)
+real: 426.205s	user: 408.116s	sys: 17.924s	mem: 406076 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=2, hilos_por_worker=2)
+real: 212.020s	user: 203.201s	sys: 8.655s	mem: 405956 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=2, hilos_por_worker=3)
+real: 141.843s	user: 135.470s	sys: 6.240s	mem: 406076 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=2, hilos_por_worker=4)
+real: 106.866s	user: 102.041s	sys: 4.678s	mem: 406080 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=3, hilos_por_worker=1)
+real: 213.226s	user: 202.188s	sys: 10.896s	mem: 406164 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=3, hilos_por_worker=2)
+real: 106.603s	user: 100.995s	sys: 5.516s	mem: 406036 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=3, hilos_por_worker=3)
+real: 71.691s	user: 67.690s	sys: 3.879s	mem: 406028 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=3, hilos_por_worker=4)
+real: 54.289s	user: 51.160s	sys: 3.005s	mem: 405964 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=4, hilos_por_worker=1)
+real: 142.610s	user: 134.440s	sys: 8.070s	mem: 406028 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=4, hilos_por_worker=2)
+real: 71.808s	user: 67.479s	sys: 4.209s	mem: 405992 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=4, hilos_por_worker=3)
+real: 48.639s	user: 45.625s	sys: 2.914s	mem: 406020 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=4, hilos_por_worker=4)
+real: 36.843s	user: 34.424s	sys: 2.326s	mem: 405992 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=5, hilos_por_worker=1)
+real: 107.245s	user: 100.272s	sys: 6.881s	mem: 405904 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=5, hilos_por_worker=2)
+real: 54.385s	user: 50.727s	sys: 3.575s	mem: 406036 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=5, hilos_por_worker=3)
+real: 36.817s	user: 34.107s	sys: 2.614s	mem: 405908 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=5, hilos_por_worker=4)
+real: 28.123s	user: 25.851s	sys: 2.179s	mem: 406220 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=6, hilos_por_worker=1)
+real: 86.061s	user: 79.625s	sys: 6.360s	mem: 405924 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=6, hilos_por_worker=2)
+real: 43.851s	user: 40.374s	sys: 3.406s	mem: 405916 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=6, hilos_por_worker=3)
+real: 29.871s	user: 27.321s	sys: 2.479s	mem: 406096 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=6, hilos_por_worker=4)
+real: 22.942s	user: 20.924s	sys: 1.955s	mem: 405964 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=7, hilos_por_worker=1)
+real: 72.178s	user: 66.024s	sys: 5.917s	mem: 405920 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=7, hilos_por_worker=2)
+real: 37.026s	user: 33.711s	sys: 3.102s	mem: 406024 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=7, hilos_por_worker=3)
+real: 25.354s	user: 22.992s	sys: 2.145s	mem: 405960 KB
+
+[*] Resultado (binario=bin/openmp_mpi, N=5000, procesos=7, hilos_por_worker=4)
+real: 19.587s	user: 17.290s	sys: 2.086s	mem: 406100 KB
+

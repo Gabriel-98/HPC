@@ -1,0 +1,16 @@
+Crear carpeta bin
+Compilar soluciones:
+	g++ sequential/sequential.cpp -o bin/sequential
+	mpicxx openm_mpi/openmp_mpi.cpp -fopenmp -o bin/openmp_mpi
+Ejecutar soluciones:
+	./bin/sequential [N] [maxValue] [show]
+	mpirun -n [procesos] -hosts [hosts] ./bin/openmp_mpi [N] [maxValue] [numberOfThreadsByWorker] [show]
+Realizar las pruebas
+	Crear carpeta pruebas
+	g++ stats.cpp -o stats
+	g++ test.cpp -o m
+	nohup ./m > pruebas/outX.txt &
+		nohup [COMANDO] &	Permite ejecutar el COMANDO en segundo plano
+		(hay un problema al hacer el llamado system en test.cpp,
+		posiblemente con un buffer, entonces despues de varios llamados a system puede que envie show=1)
+
