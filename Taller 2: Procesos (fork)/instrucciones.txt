@@ -1,0 +1,13 @@
+Crear la carpeta bin
+
+solucion serial:
+	g++ serial/serial.cpp -o bin/serial
+	time ./bin/serial [N] [maxValue] [show]
+
+solucion con memoria compartida:
+	g++ process_shared_memory/shared_memory.cpp -lrt -o bin/shared_memory
+	time ./bin/shared_memory [N] [maxValue] [numberOfProcess] [show]
+
+solucion con tuberias:
+	g++ process_pipes/process_pipes.cpp -o bin/process_pipes
+	time ./bin/process_pipes [N] [maxValue] [numberOfProcess] [show]
