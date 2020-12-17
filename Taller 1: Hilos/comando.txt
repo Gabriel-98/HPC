@@ -1,0 +1,1 @@
+g++ mult.cpp -pthread -o m
